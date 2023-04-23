@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_monday"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Mon"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_tue"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Tue"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btn_wed"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Wed"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btn_thur"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="thur"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btn_fri"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Fri"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btn_sat"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Sat"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btn_sun"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Sun"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>
